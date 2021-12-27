@@ -1,0 +1,39 @@
+h1 {
+  color: teal;
+  font-size: 65px;
+  text-align: center;
+}
+
+body {
+  background-color: thistle;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.gatos-description {
+  background-color: white;
+  color: teal;
+  width: 500px;
+  padding: 15px;
+}
+
+#musica-gatuna {
+  color: white;
+  text-align: center;
+}
+
+.famous-list,
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.gatos-nombres {
+  color: teal;
+  font-style: italic;
+}
+
+.img-gatos {
+  border-radius: 350px;
+}
