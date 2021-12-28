@@ -10,16 +10,30 @@ body {
   font-family: fantasy;
 }
 
-.gatos-description {
+.gato-bowie-description,
+.gato-mercury-description {
   background-color: white;
   color: teal;
   width: 500px;
   padding: 15px;
+  position: absolute;
+  left: 400px;
+}
+
+.gato-bowie-description {
+  top: 730px;
+}
+
+.gato-mercury-description {
+  top: 1470px;
 }
 
 #musica-gatuna {
   color: white;
   text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 410px;
 }
 
 .famous-list,
@@ -29,11 +43,35 @@ a {
   color: white;
 }
 
-.gatos-nombres {
+.gato-nombre-bowie,
+.gato-nombre-mercury {
   color: teal;
   font-style: italic;
+  position: absolute;
 }
 
-.img-gatos {
+.gato-nombre-bowie {
+  top: 670px;
+  left: 560px;
+}
+
+.gato-nombre-mercury {
+  top: 1410px;
+  left: 550px;
+}
+
+.img-gato-bowie,
+.img-gato-mercury {
   border-radius: 350px;
+  border: 5px solid slategray;
+  position: absolute;
+  left: 500px;
+}
+
+.img-gato-bowie {
+  top: 300px;
+}
+
+.img-gato-mercury {
+  top: 1000px;
 }
